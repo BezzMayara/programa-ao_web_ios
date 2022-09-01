@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Elemnto form</title>
+  </head>
+  <body>
+    <!--estrututa elemento form-->
+    <form method="post" action="maay658@gmail.com">
+      <input required />
+      <input type="submit" nome="envia" value=" enviar" />
+      <!--valor checkbox do atributo type-->
+      <p>escolha o estado que voce que morar</p>
+      <label for="tor">toronto </label>
+      <input id="tor" type="checkbox" />
+
+      <label for="tex">Texas </label>
+      <input id="tex" type="checkbox" />
+
+      <!--valor radio para o atributo type-->
+      <p>selecione a vacina</p>
+      <label for="meg">megatron</label>
+      <input type="radio" id="meg" name="tipo" />
+
+      <label for="bom">bombombi</label>
+      <input type="radio" id="bom" name="tipo" />
+
+      <label for="iro">bombeiro</label>
+      <input type="radio" id="iro" name="tipo" /> 
+      <br>
+
+      <!--Elemento select. datalist e option-->
+      <label for="pao">ecolha o seu pao</label>
+      <select name="pao" id="pao">
+        <option value="formar">Forma</option>
+        <option value="bronha">Bronha</option>
+        <option value="frances">Frances</option>
+        <option value="baguete">Baguete</option>
+      </select>
+      <BR>
+      <label for="times"> Times </label>
+      <input autocomplete="on" list="time" name="times" id="times"/>
+      <datalist id="time">
+        <option value="pen">Penapolence</option>
+        <option value="por">Portuguesa</option>
+        <option value="cha">Chapeco</option>
+        <option value="pia">Piaui</option>
+      </datalist>
+    </form>
+  </body>
+</html>

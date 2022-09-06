@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Sweet and Love</title>
+</head>
+
+<body>
+    <h1>Avaliação sobre a loja <br>
+        Sweet and Love</h1>
+    <h2>Dados do cliente</h2>
+    <main>
+        <form method="post" action="maay658@gmail.com">
+            <input type="text" name="nome" placeholder="Nome" required><br>
+            <input type="number" name="idade" placeholder="Idade" required><br>
+            <input type="email" name="email" placeholder="E-mail" required><br>
+
+            <h2> indicaria nossa loja a um amigo(a)?</h2>
+            <input type="radio" name="escolha" value="sim">
+            <label> Sim</label>
+            <input type="radio" name="escolha" value="nao">
+            <label>Não</label>
+
+            <h2> o que voce mais gostou?</h2>
+            <input type="checkbox" name="doces">
+            <label for="doces">salgados</label>
+            <input type="checkbox" name="Ambiente">
+            <label for="doces">Doces</label>
+            <input type="checkbox" name="Ambiente">
+            <label for="Ambiente">Ambiente</label>
+            <input type="checkbox" name="entrega">
+            <label for="entrega">Entrega de pedido</label>
+            <input type="checkbox" name="atendimento">
+            <label for="atendimento">Atendimento</label>
+            <input type="checkbox" name="valores">
+            <label for="valores">Valores</label>
+
+            <h2>qual foi a sua ultima compra em nossa loja?</h2>
+
+            <input type="text" id="product" placeholder="ex.;uma sobremesa...">
+
+            <h2>Em qual loja você foi atendido?</h2>
+
+            <input name="lojas" id="lojas" autocomplete="on" list="loja">
+            <datalist id="loja">
+                <option value="aclimacao">Aclimação</option>
+                <option value="liberdade">Liberdade</option>
+                <option value="tatuape">Tatuapé</option>
+                <option value="saojoaquim">São joaquim</option>
+            </datalist>
+           <h4>A Sweet and Love agradece!</h4>
+            
+            <input type="submit" value="confirmar avaliação" />
+
+
+        </form>
+    </main>
+</body>
+
+</html>

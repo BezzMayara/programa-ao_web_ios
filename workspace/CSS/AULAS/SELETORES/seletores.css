@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+.sla {
+    color: blueviolet;
+}
+h1 { color: blue;
+    
+    border: 2px solid rgb(93, 92, 93);
+}
+section .bla{
+    color: rgb(189, 194, 198);
+    background-color: rgb(176, 126, 65);
+    border: 2px solid rgb(102, 255, 112);
+}
+#primeiro_nome{
+    background-color: aqua;
+    text-align: center;
+}
+#segundoNome{
+    background-color: beige;
+}

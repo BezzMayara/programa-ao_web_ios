@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+* {
+    font-size: 25px;
+}
+
+body {
+    background-color: #d1c8a3;
+}
+
+.cor {
+    background-color: #c6ad71;
+    font-family: 'Times New Roman', Times, serif;
+    border: #acba9d 1px solid;
+}
+
+h4,
+h3,
+h2 {
+    color: #e3604d;
+}

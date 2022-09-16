@@ -1,0 +1,35 @@
+@charset "UTF8";
+
+* {
+    margin: 2px;
+    padding: 5px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: black;
+    background-image: url('Tom&Jerry.PNG');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+h2 {
+    text-align: center;
+    background-color: rgba(255, 127, 80, 0.439);
+    font-size: 5em;
+}
+
+h3{
+    background-color: rgba(169, 169, 169, 0.5);
+    margin-right: 5cm;
+    margin-left: 5cm;
+
+}
+article{
+font-size: 150% ;
+text-align: left;
+padding-right: 250px;
+}
+

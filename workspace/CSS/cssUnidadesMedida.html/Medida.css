@@ -1,35 +1,66 @@
 @charset "UTF8";
 
 * {
+
     margin: 2px;
     padding: 5px;
+
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     color: black;
-    background-image: url('Tom&Jerry.PNG');
+    background-image: url('TOMEJERRY..PNG');
     background-size: cover;
     background-position: center;
     height: 100vh;
+    background-repeat: no-repeat;
 }
 
 h2 {
     text-align: center;
-    background-color: rgba(255, 127, 80, 0.439);
     font-size: 5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25mm;
 }
 
-h3{
-    background-color: rgba(169, 169, 169, 0.5);
+h3 {
+    background-color: rgba(0, 0, 0, 0.644);
     margin-right: 5cm;
     margin-left: 5cm;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 150%;
+
 
 }
-article{
-font-size: 150% ;
-text-align: left;
-padding-right: 250px;
+
+article {
+    font-size: 150%;
+    text-align: left;
+    padding-right: 250px;
 }
 
+p {
+    background-color: rgba(255, 255, 255, 0.637);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.tom {
+    background-color: gray;
+}
+
+.jerry {
+    background-color: rgba(255, 72, 0, 0.849);
+}
+.btn {
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: #000000 2px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px; }

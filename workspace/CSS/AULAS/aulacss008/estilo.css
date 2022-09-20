@@ -1,0 +1,43 @@
+@charset "UTF-8";
+p:first-child{
+    color: blue;
+}
+.mylist li:first-child{
+    background-color: aqua;
+}
+.mylist li:nth-child(3){
+    background-color: blueviolet;
+}
+.mylist li:last-child{
+    background-color: darkorange;
+}
+a:hover{
+    background-color: deeppink;
+}
+
+#paragrafo::before{
+    content: "leia isso -" ;
+}
+#paragrafo2::after{
+content: "-leia mais";
+}
+
+p::first-letter{
+font-size: 200%;
+color: rgb(238, 0, 255);
+}
+
+#first::first-line{
+    background-color: lightpink;
+
+}
+
+P::selection{
+    color: white;
+    background-color: blue;
+}
+
+::selection{
+color: rgb(115, 115, 243);
+background-color: orchid;
+}

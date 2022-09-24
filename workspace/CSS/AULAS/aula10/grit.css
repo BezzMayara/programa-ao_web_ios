@@ -1,0 +1,34 @@
+.container {
+    display: grid;
+    border: 1px solid black;
+    grid-template-columns: 40px 40px 40px 40px ; /*ou repeat(4, 1fr)*/
+    grid-template-rows: 40px 40px 40px; /*ou repeat(3, 1fr)*/
+    grid-template-areas: "pipoca1 pipoca1 pipoca1 pipoca1"
+        "pipoca2 pipoca2 . pipoca3"
+        "pipoca4 pipoca4 pipoca4 pipoca5"; 
+}
+
+.item-1 {
+    grid-area: pipoca1;
+    border: 3px solid rgb(255, 117, 140);
+}
+
+.item-2 {
+    grid-area: pipoca2;
+    border: 3px solid rgb(119, 255, 226);
+}
+
+.item-3 {
+    grid-area: pipoca3;
+    border: 3px solid rgb(166, 78, 255);
+}
+
+.item-4 {
+    grid-area: pipoca4;
+    border: 3px solid rgb(91, 255, 143);
+}
+
+.item-5 {
+    grid-area: pipoca5;
+    border: 3px solid rgb(255, 213, 147);
+}

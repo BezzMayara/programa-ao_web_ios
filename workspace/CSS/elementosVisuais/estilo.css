@@ -1,8 +1,22 @@
 @charset "UTF-8";
-
-* {
+body{
     background-color: #eefaa8;
-    font-family: sans-serif;
-    margin-left: auto;
-    margin-right: auto;
+    font-family:sans-serif;
+    margin: auto;
+    width: 80%;
+}
+
+header{
+    background-color: #649ea7;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+table,td,th{
+    border: 1px solid #000;
+}
+
+th{
+    background-color: #8fbfb9;
+    font-weight: bold;
 }

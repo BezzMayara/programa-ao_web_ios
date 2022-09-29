@@ -2,83 +2,84 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
-    color: black;
-    background-image: url(attack.webp);
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-image: url(attack.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+
 }
 
 header {
-    background-color: #725436;
+    text-align: center;
+    color: rgb(255, 254, 254);
+    font-size: 40px;
+    letter-spacing: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-h1 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
+main {
+    background-color: #c1c2bcd4;
+    display: flex;
+    box-sizing: left;
 }
 
-img {
-    width: 560px;
+main img {
+    width: 500px;
     height: 315px;
+    margin: 10px;
 }
 
-.float-1 {
+.img:hover {
+    transform: scale(1.2)
+}
+
+.video:hover {
+    transform: scale(1.2)
+}
+
+
+main p {
+    margin: 10px;
+}
+
+.iframe {
+    margin: 10px;
+    background-color: #c1c2bcd4;
     display: flex;
-    background-color: #c1c2bcc0;
-    padding: 10px;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 
-img:hover {
-    opacity: 0.5;
-}
-
-a:hover {
-    opacity: 0.8;
-    background-color: #725436;
-}
-
-p {
-    padding: 25px;
-}
-
-.btn {
+.container{
+    padding: 2rem;
     border: 2px solid black;
-    padding: 8px;
-    text-decoration: none;
-    background-color: #314a20da;
-    color: white;
-    border-radius: 15px;
-}
-
-div {
-    margin: 60px 0;
-
-}
-
-.float-2 {
     display: flex;
-    background-color: #c1c2bcc0;
-    padding: 10px;
+    margin: 1px;
+}
+.esquerda{
+    float: right;
+    background-color: #314a20;
+    width: 500px;
+    height: 500px;
+    margin: 10px;
 }
 
-ul {
-    padding: 20px 40px;
+.direita{
+    clear: none;
+    background-color: #533618;
+    width: 500px;
+    height: 500px;
+    margin: 10px;
 }
 
-li {
-    padding: 10px;
+
+img{
+    width: 250px;
+    height: 200px;
 }
 
-.float-3 {
-    background-color: #c1c2bcc0;
-}
 
-.direita {
-    float: both;
-    width: 30%;
-
-}
 

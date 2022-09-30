@@ -4,14 +4,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: rgb(0, 0, 0);
-    background-image: url(attack.jpg);
+    background-image: url(./img/attack.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 
 }
-
 header {
     text-align: center;
     color: rgb(255, 254, 254);
@@ -47,39 +46,66 @@ main p {
 
 .iframe {
     margin: 10px;
-    background-color: #c1c2bcd4;
+    background-color: #c1c2bc;
     display: flex;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin: 8em;
+}
+
+section{
+    background-color: #314a20;
+}
+
+h4{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    letter-spacing: 10px;
+    background-color: #314a20ca;
 }
 
 .container{
-    padding: 2rem;
-    border: 2px solid black;
-    display: flex;
-    margin: 1px;
+    background-color: #314a208d;
 }
-.esquerda{
-    float: right;
+
+h1{
     background-color: #314a20;
-    width: 500px;
-    height: 500px;
-    margin: 10px;
+    text-align: center;
+}
+.direita {
+    float: right;
+    width: 39%;
+    margin: 20px;
+}
+.esquerda {
+    float: left;
+    width: 39%;
+    margin: 20px;
 }
 
-.direita{
-    clear: none;
-    background-color: #533618;
-    width: 500px;
-    height: 500px;
-    margin: 10px;
+.p {
+    background-color: white;
+    padding: 10px;
 }
 
+.btn {
+    border: 2px solid black;
+    color: black;
+    background-color: #C1C2BC;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 4px;
+}
+ .arr{
+    width: 360px;
+    height: 415px;
+
+ }
 
 img{
-    width: 250px;
-    height: 200px;
+    width: 560px;
+    height: 315px;
 }
+
 
 
 

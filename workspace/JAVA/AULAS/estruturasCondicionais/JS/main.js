@@ -54,3 +54,19 @@ console.log(resultado);
 // Operador ternário - exemplo 2
 console.clear();
 let result = Math.PI < 4 ? console.log('Sim') : console.log('Não');
+
+// Switch
+const h = 7;
+const cor = h > 10 ? 'vermelha' : 'azul';
+console.clear();
+switch (cor) {
+    case 'vermelha':
+        console.log('A cor é vermelha');
+        break;
+    case 'azul':
+        console.log('A cor é azul');
+        break;
+    default:
+        console.log('A cor não é vermelha ou azul');
+        break;
+}

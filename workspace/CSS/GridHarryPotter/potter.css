@@ -1,0 +1,91 @@
+body {
+    background-color: black;
+    color: black;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    align-self: center;
+    padding: 15px;
+    margin: 25px;
+    height: 100px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+img {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    left: 500px;
+    margin-top: 10px;
+    font-size: 60px;
+    position: absolute;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 10px;
+    align-content: space-between;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+div .vermelho {
+    padding: 10px;
+    color: white;
+    background-color: #ff0000b7;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+div .azul {
+    padding: 10px;
+    color: white;
+    background-color: #0011ff6e;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+div .verde {
+    padding: 10px;
+    background-color: #34dd007a;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+div .amarelo {
+    padding: 10px;
+    background-color: #eeba30;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+.btn {
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
